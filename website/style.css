@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #131921;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.small-text {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.bold-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* SEARCH */
+.search-bar {
+    display: flex;
+    width: 40%;
+}
+
+.search-bar select {
+    padding: 8px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 8px;
+}
+
+.search-bar button {
+    background: orange;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* NAV RIGHT */
+.nav-right {
+    font-size: 12px;
+}
+
+/* CART */
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* NAVBAR */
+.nav {
+    display: flex;
+    gap: 20px;
+    background: #232f3e;
+    color: white;
+    padding: 10px;
+}
+
+/* HERO */
+.hero {
+    background: #ffd6ec;
+    text-align: center;
+    padding: 40px;
+}
+
+/* DEALS */
+.deals {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+}
+
+.deal-row {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.deal-item {
+    min-width: 150px;
+    text-align: center;
+}
+
+.deal-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* SCROLL SECTION */
+.scroll-section {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+}
+
+.scroll-row {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.scroll-row img {
+    height: 200px;
+    border-radius: 5px;
+}
+
+/* PRODUCTS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background: #eee;
+}
+
+.box {
+    background: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    background: #131921;
+    color: white;
+    padding: 15px;
+}
